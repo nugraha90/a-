@@ -1,0 +1,24 @@
+title: Fauzan
+email: fncolon@pm.me
+description: "My Personal Blog"
+baseurl: ""
+url: "https://bl0cknumber.github.io"
+twitter_username: fncolon
+github_username: bl0cknumber
+
+# Build settings
+# permalink   : /:year/:title/
+paginate_path: "/page/:num"
+permalink: /:year/:month/:day/:title
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+theme: jekyll-theme-cayman
