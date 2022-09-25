@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: "14"
       - run: |
-          unzip -l assets.zip
+          sudo unzip -l assets.zip
           npm install
           node scripts/generate-blocknumber.js
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
